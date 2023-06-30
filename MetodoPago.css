@@ -1,0 +1,179 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    zoom: 67%;
+}
+
+.top-bar {
+    height: 100px;
+    background-color: orange;
+}
+
+.blue-bar {
+    background-color: rgb(13, 67, 128);
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.vertical-bar {
+    width: 300px;
+    background-color: rgb(142, 142, 143);
+    padding: 70px 0px;
+    height: calc(100% - 100px);
+    overflow-y: auto;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.option {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.option:hover {
+    background-color: #002b5d;
+    height: 30px;
+}
+
+.option.active {
+    background-color: #002b5d;
+    color: white;
+    height: 30px;
+}
+
+.option a {
+    color: white;
+    text-decoration: none;
+}
+
+.option a:hover {
+    color: #fff;
+}
+
+.main-content {
+    flex: 1;
+    padding-left: 20px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.contenedor1 {
+    width: 100%;
+    float: left;
+    height: 750px;
+}
+
+.form1 {
+    background-color: #D9D9D9;
+    font-family: 'Aldhabi';
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border: #000 solid 1px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.form1 label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.form1 input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.form1 .enviar1 {
+    background-color: #002b5d;
+    height: 60px;
+    width: 190px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Aldhabi';
+    font-style: normal;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.form1 .enviar1:hover {
+    background-color: #001b3d;
+}
+
+.form1 .cancelar {
+    background-color: #002b5d;
+    height: 60px;
+    width: 190px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Aldhabi';
+    font-style: normal;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.form1 .cancelar:hover {
+    background-color: #001b3d;
+}
+
+.back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 33px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #002b5d;
+}
+
+.back-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}

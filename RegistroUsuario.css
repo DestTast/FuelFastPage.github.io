@@ -1,0 +1,115 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    zoom: 0.67; /* Ajuste del nivel de zoom */
+    overflow-x: hidden; /* Evita barras de desplazamiento horizontales */
+}
+
+.contenedor-principal {
+    width: 100%;
+    height: 100%;
+    border: 0px solid #ffffff;
+}
+
+.contenedor-arriba {
+    background-color: #2075e6;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    min-height: 70px;
+    padding: 0;
+    text-align: center;
+}
+
+.contenedor-arriba a {
+    margin: 0; /* Elimina el margen en todas las direcciones */
+    padding: 40px 22px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenedor-arriba a:first-child {
+    border-radius: 0 0 0 4px; /* Agrega esquinas redondeadas solo en la esquina inferior izquierda */
+}
+
+.contenedor-arriba a:last-child {
+    border-radius: 0 0 4px 0; /* Agrega esquinas redondeadas solo en la esquina inferior derecha */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Ajusta el margen derecho del logo */
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.contenedor-arriba a:hover {
+    background-color: #002b5d; /* Color de fondo al pasar el cursor sobre las opciones del menú */
+}
+
+.lista-productos {
+    background-color: #002b5d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.opcion-oscuro {
+    /* Estilos para la opción "Productos" */
+    background-color: darkblue;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.contenedor1 {
+    width: 100%;
+    float: left;
+    height: 750px;
+}
+
+.form1 {
+    background-color: #D9D9D9;
+    font-family: 'Aldhabi';
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border: #000 solid 1px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Aldhabi';
+}
+
+.form1 input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.form1 .label {
+    color: #000;
+}
+
+.form1 .enviar1 {
+    background-color: #ff914d;
+    height: 50px;
+    width: 170px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Aldhabi';
+    font-style: normal;
+}

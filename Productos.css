@@ -1,0 +1,167 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    zoom: 0.67; /* Ajuste del nivel de zoom */
+    overflow-x: hidden; /* Evita barras de desplazamiento horizontales */
+}
+
+.contenedor-principal {
+    width: 100%;
+    height: 100%;
+    border: 0px solid #ffffff;
+}
+
+.contenedor-arriba {
+    background-color: #2075e6;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    min-height: 70px;
+    padding: 0;
+    text-align: center;
+}
+
+.contenedor-arriba a {
+    margin: 0; /* Elimina el margen en todas las direcciones */
+    padding: 40px 22px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+   /* border: 2px solid #002b5d;    */
+}
+
+.contenedor-arriba a:first-child {
+    border-radius: 0 0 0 4px; /* Agrega esquinas redondeadas solo en la esquina inferior izquierda */
+}
+
+.contenedor-arriba a:last-child {
+    border-radius: 0 0 4px 0; /* Agrega esquinas redondeadas solo en la esquina inferior derecha */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Ajusta el margen derecho del logo */
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+
+
+.contenedor-arriba a:hover {
+    background-color: #002b5d; /* Color de fondo al pasar el cursor sobre las opciones del menú */
+}
+
+.lista-productos {
+    background-color: #002b5d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.contenedor1,
+.contenedor2 {
+    background-color: white;
+    width: 50%;
+    float: left;
+    height: 100%;
+    margin-bottom: 20px; /* Margen inferior adicional */
+}
+
+/* Resto del código CSS... */
+.form1,
+.form2 {
+    background-color: #D9D9D9;
+    font-family: 'Aldhabi', Courier, monospace;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 80%;
+}
+
+.contenedor1 img,
+.contenedor2 img {
+    width: 160px;
+    border-radius: 8px; /* Agrega esquinas redondeadas */
+}
+
+
+.form1 label,
+.form2 label {
+    display: inline-block;
+}
+
+.form1 input[type="button"],
+.form2 input[type="button"] {
+    display: block;
+    margin: 0 auto;
+}
+
+.contenedor2 {
+    margin-bottom: 40px; /* Margen inferior adicional */
+}
+
+
+
+
+
+
+/*-------------------Modificacion de boton------------------------------------*/
+
+
+.opcion-oscuro {
+    /* Estilos para la opción "Productos" */
+    background-color: darkblue;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+
+
+/* barra para bajar modificado */
+
+.contenedor-principal::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+    background-color: #ee1515; /* Color de fondo de la barra de desplazamiento */
+}
+
+.contenedor-principal::-webkit-scrollbar-thumb {
+    background-color: #000000; /* Color del pulgar (parte desplazable) */
+    border-radius: 4px; /* Borde redondeado del pulgar */
+}
+
+.contenedor-principal::-webkit-scrollbar-thumb:hover {
+    background-color: #000000; /* Color del pulgar al pasar el cursor */
+}
+
+.contenedor-principal::-webkit-scrollbar-track {
+    background-color: #000000; /* Color de fondo de la pista (parte no desplazable) */
+    border-radius: 4px; /* Borde redondeado de la pista */
+}
+
+.contenedor-principal::-webkit-scrollbar-track:hover {
+    background-color: #070000; /* Color de fondo de la pista al pasar el cursor */
+}
